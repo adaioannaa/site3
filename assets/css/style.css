@@ -1,0 +1,159 @@
+@charset "UTF-8";
+/* here is the background color and first background */
+body{
+   .entire-page-link{
+    position:fixed;
+    top:0;
+    left:0;
+    width: 100vw;
+    height:100vh;
+    z-index:99999;
+    cursor:pointer;
+
+    background: transparent;
+   }
+  background-color: rgb(174, 209, 121);
+   background-image:url("https://i.pinimg.com/1200x/25/59/9b/25599b81a39e866da1c10c18edc7cce0.jpg");
+            background-size: 55px;
+            background-position: center;
+            background-repeat: round ;
+             background-attachment: scroll;
+  height: 100vh;
+         height: 500px;
+
+
+    .container{
+        gap:20px;
+        padding: 20px;
+        width: 100%;
+        box-sizing: border-box;
+        display: grid;
+  grid-template-columns: auto auto auto;
+  background-image:url("https://i.pinimg.com/736x/c2/c5/9b/c2c59b2e7a910bfd947e3080fdf1413f.jpg");
+  padding: 10px;
+    }
+
+
+    .container-div {
+  background-color: #bac7cf;
+  margin: 10px;
+  padding: 20px;
+}
+
+
+ .box { /*here are the settings for the first box*/
+        width: 400px;
+            height: 400px;
+           /*the picture of the first box*/
+            background-size: cover; /*making the picture centered in the box*/
+            cursor: pointer;
+            flex: 1 1 100px;
+            border: 3px;
+    }
+    .box:hover { /*when you hover the color should turn to green*/
+        background-color:rgb(198, 211, 83);
+    }
+
+
+   
+        .circle { /*here are the settings for the second box*/
+        width: 400px;
+            height: 400px;
+       
+            background-size:contain;
+            cursor: pointer;
+            flex: 100px;
+    }
+    .circle:hover {
+        background-color:rgb(198, 211, 83);
+    }
+ 
+
+
+   
+        .rectangle {
+        width: 400px;
+            height: 400px;
+           
+            background-size:contain;
+            cursor: pointer;
+            flex: 100px;
+
+
+    }
+    .rectangle:hover {
+        background-color:rgb(63, 31, 193);
+    }
+ 
+
+
+
+
+  .dreptunghi{
+  width: 200px;
+  height: 200px;
+  }
+
+
+        .star {
+        width: 200px;
+            height: 200px;
+           ;
+            background-size:contain;
+            cursor: pointer;
+            flex: 100px;
+
+
+    }
+    .star:hover {
+        background-color:rgb(63, 31, 193);
+    }
+   
+
+
+   
+
+
+   
+        .heart { /*here are the settings for the second box*/
+        width: 200px;
+            height: 200px;
+     
+            background-size:contain;
+            cursor: pointer;
+            flex: 100px;
+    }
+    .heart:hover {
+        background-color:rgb(198, 211, 83);
+    }
+
+
+
+
+    .container2{
+        gap:50px;
+        padding: 60px;
+        width: 100%;
+        box-sizing: border-box;
+       background-image: url("https://i.pinimg.com/736x/b6/77/a2/b677a2bb7a7528cf40f733001cc91528.jpg");
+        display: grid;
+  grid-template-columns: auto auto auto;
+ 
+  padding: 10px;
+    }
+
+
+    .container2-div{
+  background-color: #bac7cf;
+  margin: 50px;
+  padding: 60px;
+}
+
+
+}
+
+
+
+
+
+
